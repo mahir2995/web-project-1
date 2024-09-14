@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amaterasu Fitness Gym</title>
+  </head>
+  <link rel="stylesheet" href="css/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+      background: url("img/gym.jpg");
+  
+      color: white;
+      font-family: "Ubuntu Sans Mono", monospace;
+    }
+    .left {
+      display: inline-block;
+      position: absolute;
+      left: 18px;
+      top: 11px;
+    }
+    .left img {
+      width: 50px;
+      filter: invert(100%);
+      margin-left: 65px;
+      margin-bottom: 5px;
+    
+    }
+    .left div {
+      text-align: right;
+    }
+    .mid {
+      display: block;
+      width: 50%;
+      margin: 5px auto;
+    }
+    .right {
+      position: fixed;
+      right: 34px;
+      top: 20px;
+      display: inline-block;
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 20px;
+    }
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 34px 23px;
+    }
+    .navbar li a:hover {
+      color: rgb(207, 27, 27);
+      text-decoration: underline;
+    }
+    .btn {
+      margin: 0px 5px;
+      padding: 4px 3px;
+      border-radius: 10px;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      border-color: rgb(193, 193, 214);
+      font-family: "Ubuntu Sans Mono", monospace;
+    }
+    .btn:hover {
+      background-color: rgb(75, 75, 75);
+    }
+
+    .container {
+      font-family: "Ubuntu Sans Mono", monospace;
+      margin: 101px 48px;
+      padding: 15px 18px;
+      
+      border-radius: 10px;
+      width: 38%;
+    }
+    .container h1 {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .container button {
+      font-family: "Ubuntu Sans Mono", monospace;
+      display: block;
+      width: 374px;
+      margin: 12px auto;
+      padding: 5px 7px;
+    }
+    .container button:hover{
+        background-color: grey;
+    }
+    .form-grp input {
+        font-family: "Ubuntu Sans Mono", monospace;
+      text-align: center;
+      width: 266px;
+      padding: 5px 48px;
+      margin: 22px auto;
+      border: 6px solid white;
+      border-radius: 10px;
+      display: block;
+    }
+  </style>
+
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="img/logo.png" alt="" />
+        <div>Amaterasu Fitness Gym</div>
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+
+    <div class="container">
+      <h1>Join the best gym in Mirpur now</h1>
+      <form action="noaction.php">
+        <div class="form-grp">
+          <input type="text" name="" placeholder="Enter your name" />
+        </div>
+        <div class="form-grp">
+          <input type="text" name="" placeholder="Enter your age" />
+        </div>
+        <div class="form-grp">
+          <input type="text" name="" placeholder="Enter your gender" />
+        </div>
+        <div class="form-grp">
+          <input type="text" name="" placeholder="Enter your locality" />
+        </div>
+        <div class="form-grp">
+            <input type="text" name="" placeholder="Enter your phone number" />
+          </div>
+          <div class="form-grp">
+            <input type="text" name="" placeholder="Enter your email" />
+          </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
